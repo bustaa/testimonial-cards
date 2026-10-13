@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.testimonial-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.user-info {
+  display: flex;
+}
+
+.testimonial-1 blockquote {
+  background-color: rgb(22, 22, 22);
+  color: white;
+  font-weight: 550;
+  font-size: 17px;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 0;
+}
+
+.user-info img {
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+.cite-card {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.author {
+  font-size: 22px;
+  margin: 0;
+  padding-bottom: 0.3rem;
+  font-weight: 600
+  ;
+}
+
+.author-profession {
+  margin: 0;
+}
+
+.testimonial-2 {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 350px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.testimonial-2 blockquote {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.testimonial-3 {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  max-width: 750px;
+  margin: 1.5rem;
+  gap: 1rem;
+}
+
+.testimonial-3 img {
+  width: 100px;
+  height: 100%;
+  flex: 1;
+  border-radius: 30px;
+}
+
+.testimonial-3 .user-review {
+  flex: 1.5;
+  background-color: rgb(22, 22, 22);
+  color: white;
+  border-radius: 30px;
+  padding: 2rem;
+}
+
+.user-review blockquote {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.user-review .author {
+  font-size: 30px;
+}
+
+.user-review .author-profession {
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  font-size: 20px;
+}
+
+.review-carrousel {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 100%;
+  max-width: 750px;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 3rem;
+  align-items: center;
+}
+
+.review-carrousel blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.carrousel ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+.carrousel img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.currentUser div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 600px;
+  transform: translateY(20px);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
